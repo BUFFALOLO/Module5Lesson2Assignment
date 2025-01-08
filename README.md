@@ -4,16 +4,16 @@ Objective: This assignment is centered around Data Manipulation Language (DML) o
 You will be working on inserting, updating, and deleting data related to gym members, and workout sessions, emphasizing the practical application of SQL DML commands in a real-world scenario.
 
 **Members Table Structure:**
-'''
+```
 CREATE TABLE Members (
     id INT PRIMARY KEY,
     name VARCHAR(255) NOT NULL,
     age INT,
 );
-'''
+```
 
 **WorkoutSessions Table Structure:**
-'''
+```
 CREATE TABLE WorkoutSessions (
     session_id INT PRIMARY KEY,
     member_id INT,
@@ -22,8 +22,7 @@ CREATE TABLE WorkoutSessions (
     activity VARCHAR(255),
     FOREIGN KEY (member_id) REFERENCES Members(id)
 );
-'''
-
+```
 
 **Task 1: SQL Data Insertion**
 Problem Statement: Your task is to populate the Members and WorkoutSessions tables with relevant data. This will involve inserting records into both tables while ensuring data integrity and consistency.
