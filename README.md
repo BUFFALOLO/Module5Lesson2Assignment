@@ -25,13 +25,13 @@ CREATE TABLE WorkoutSessions (
 ```
 
 **Task 1: SQL Data Insertion**
-- Problem Statement: Your task is to populate the Members and WorkoutSessions tables with relevant data. This will involve inserting records into both tables while ensuring data integrity and consistency.
-- Expected Outcome: New member records are successfully added to the Members table with their respective details.
+- **Problem Statement:** Your task is to populate the Members and WorkoutSessions tables with relevant data. This will involve inserting records into both tables while ensuring data integrity and consistency.
+- **Expected Outcome:** New member records are successfully added to the Members table with their respective details.
 
 **Task 2: SQL Data Update**
-- Problem Statement: Update the workout session time for a specific member. Assume member 'Jane Doe' has changed her workout session from morning to evening.
-- Expected Outcome: The WorkoutSessions table is successfully updated to reflect the new session time for Jane Doe.
+- **Problem Statement:** Update the workout session time for a specific member. Assume member 'Jane Doe' has changed her workout session from morning to evening.
+- **Expected Outcome:** The WorkoutSessions table is successfully updated to reflect the new session time for Jane Doe.
 
 **Task 3: SQL Data Deletion**
-- Problem Statement: Remove data of a member who has canceled their gym membership. Assume member 'John Smith' has canceled his membership.
-- Expected Outcome: John Smith's record is successfully removed from the Members table, reflecting his cancellation of the gym membership.
+- **Problem Statement:** Remove data of a member who has canceled their gym membership. Assume member 'John Smith' has canceled his membership.
+- **Expected Outcome:** John Smith's record is successfully removed from the Members table, reflecting his cancellation of the gym membership.
